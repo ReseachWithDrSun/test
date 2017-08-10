@@ -1,0 +1,17 @@
+output_map:
+- [features.main.diffuse low-q, 0.5]
+- [features.main.diffuse high-q, 0.5]
+- [features.main.halo, 0.5]
+- [features.variations.higher orders, 0.5]
+- [features.main.ring, 0.5]
+- [sample.lattice.BCC, 0.5]
+- [sample.lattice.FCC, 0.5]
+- [sample.lattice.hexagonal, 0.5]
+- [sample.lattice.lamellar, 0.5]
+- [features.variations.symmetry halo, 0.5]
+- [features.variations.symmetry ring, 0.5]
+- [instrumental.beamstop.circular beamstop, 0.5]
+- [instrumental.beamstop.wedge beamstop, 0.5]
+- [instrumental.beamstop.linear beamstop, 0.5]
+- [instrumental.beamstop.beam off image, 0.5]
+predict_module_path: /lscr/home/zquan/xray_learning

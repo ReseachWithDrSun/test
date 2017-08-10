@@ -1,0 +1,7 @@
+<DataFile name="template">
+  <protocol name="tag_generated" outfile="template">
+  </protocol>
+  <protocol name="calibration_generated">
+    N/A -- GENERATED FROM TEMPLATE
+  </protocol>
+</DataFile>

@@ -1,0 +1,38 @@
+These are rough notes on things that are important to remember when porting
+this data elsewhere. Eventually should be put into a manual.
+
+installation steps:
+-add env varialbe PYTHONSTARTUP=config.py
+	this will read config.py in folder if present
+-add ~/.config/matplotlib/matplotlibrc file 
+	(right now just use it to remove interpolation in images)
+
+-need to make sure matplotlib 1.4 or higher installed (for the customization of plots)
+    sudo apt-get install libfreetype6-dev
+    sudo pip3 install --upgrade matplotlib #(or pip if using python2)
+- When installing the lz4 plugin, these variables need to be set:
+	export LD_LIBRARY_PATH=~/research/data/yager150726/hdf5-1.8.15-patch1/hdf5/lib:/usr/lib/x86_64-linux-gnu
+	export C_INCLUDE_PATH=~/research/data/yager150726/hdf5-1.8.15-patch1/hdf5/include
+	export CPLUS_INCLUDE_PATH=~/research/data/yager150726/hdf5-1.8.15-patch1/hdf5/include:/usr/include
+	#export HDF5_PLUGIN_PATH=/usr/lib/x86_64-linux-gnu
+	export HDF5_PLUGIN_PATH=/home/julienl/research/data/yager150726/HDF5Plugin-master
+-New python git use the .gitignore template from here (and don't forget to add it):
+    https://github.com/github/gitignore/blob/master/Python.gitignore
+    -append to .gitignore:
+        pyscripts
+        pylists
+        pystorage
+-set up your sym links (if you want): pyscripts, pylists, pystorage
+-Great quick guide to git: http://rogerdudler.github.io/git-guide/
+-move the examples/sampleconfig.py to config.py and have the variables
+    point to the correct directories
+-install lmfit (sudo pip3 install lmfit)
+
+notes:
+- the current EIGER reading code (detector.EigerFile) is only temporary. Once
+  CHX gets their EIGER code working with python3, it will be used here.
+
+code practices:
+-keep scripts out of main code directory. place a soft link to scripts
+directory and add it to the gitignore
+-if code is taken from elsewhere, add a #ref symbol for later review

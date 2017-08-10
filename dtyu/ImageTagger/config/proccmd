@@ -1,0 +1,1 @@
+1 / np.log(2**16) * np.log(1 + image)

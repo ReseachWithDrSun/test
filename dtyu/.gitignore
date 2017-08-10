@@ -1,0 +1,16 @@
+# python
+__pycache__
+*.pyc
+
+# ipython
+.ipynb_checkpoints
+
+# pycharm
+.idea
+
+#Meta-Data
+#synthetic_xray_data
+#tagged_xray_data
+xray_data
+ImageTagger/examples/*.*
+xray_learning/run_processor.yml

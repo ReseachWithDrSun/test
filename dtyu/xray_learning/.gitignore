@@ -1,0 +1,10 @@
+# python
+__pycache__
+*.pyc
+
+# ipython
+.ipynb_checkpoints
+
+Meta-Data
+synthetic_xray_data
+tagged_xray_data

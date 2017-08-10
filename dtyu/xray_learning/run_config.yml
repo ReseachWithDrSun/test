@@ -1,0 +1,36 @@
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Use for Real datatset training and testing
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Real training
+#num_examples: 2000
+#record_paths: [../xray_data/real_binary/batch-0.bin]
+
+## Real testing
+#num_examples: 429
+#record_paths: [../xray_data/real_binary/batch-1.bin]
+
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Use synthetic training for all training: batches 0 thru 8
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## synthetic training
+num_examples: 45000
+record_paths: [../xray_data/fbb_output/batch-0.bin,
+    ../xray_data/fbb_output/batch-1.bin,
+    ../xray_data/fbb_output/batch-2.bin,
+    ../xray_data/fbb_output/batch-3.bin,
+    ../xray_data/fbb_output/batch-4.bin,
+    ../xray_data/fbb_output/batch-5.bin,
+    ../xray_data/fbb_output/batch-6.bin,
+    ../xray_data/fbb_output/batch-7.bin,
+    ../xray_data/fbb_output/batch-8.bin]
+
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Use synthetic testing for all testing: batch 9 
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## synthetic testing 
+#num_examples: 5000
+#record_paths: [../xray_data/fbb_output/batch-9.bin]
+
+
+train_dir: ../xray_data/fbb_output/

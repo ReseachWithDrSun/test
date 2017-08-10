@@ -1,0 +1,110 @@
+sample.lattice.symmetry: 2
+image.general.intermediate scattering
+experiment.measurement.TSAXS
+sample.type.single crystal
+features.variations.symmetry halo: 18
+substance.instrumental.AgBH
+features.variations.symmetry ring: 16
+image.general.form factor
+features.main.ring: spotted
+features.variations.ring: orientation distribution: sharp
+image.general.weak scattering
+features.variations.symmetry ring: 10
+sample.type.mesostructure
+sample.lattice.lamellar
+image.measured.dark
+features.main.diffuse high-q: anisotropic
+features.main.diffuse high-q: isotropic
+features.variations.higher orders: 5
+features.variations.symmetry ring: 12
+features.variations.higher orders: 19
+instrumental.beamstop.wedge beamstop
+features.variations.symmetry halo: 10
+instrumental.beamstop.linear beamstop
+features.main.ring: oriented other
+sample.lattice.symmetry: 4
+features.variations.higher orders: 8
+features.main.halo: oriented OOP
+features.variations.ring: width: intermediate
+image.problem.zingers
+substance.test.particular
+features.variations.higher orders: 6
+features.variations.symmetry ring: 4
+features.main.ring: oriented OOP
+image.general.structure factor
+features.variations.symmetry halo: 20
+instrumental.beamstop.beam off image
+sample.lattice.FCC
+features.variations.symmetry halo: 4
+features.variations.higher orders: 20
+features.main.halo: oriented other
+image.measured.standard
+features.main.ring: isotropic
+image.problem.parasitic slit scattering: horizontal
+features.variations.higher orders: 9
+instrumental.detector.Conceptual256
+image.problem.windowed obstruction
+features.variations.higher orders: 4
+features.variations.higher orders: 12
+features.variations.symmetry halo: 12
+features.main.halo: anisotropic
+features.variations.symmetry halo: 8
+features.variations.ring: orientation distribution: intermediate
+image.problem.windowed scattering
+image.problem.parasitic slit scattering: vertical
+features.variations.higher orders: 3
+features.variations.symmetry halo: 6
+sample.lattice.symmetry: 6
+features.variations.higher orders: 21
+features.main.halo: oriented IP
+sample.special.meso lattice SC
+features.other.coherent speckle
+features.variations.symmetry ring: 8
+features.variations.higher orders: 15
+features.main.diffuse low-q: isotropic
+features.main.ring: textured
+image.measured.sample
+features.variations.higher orders: 10
+features.variations.many rings
+features.variations.higher orders: 16
+features.variations.symmetry ring: 18
+sample.type.polycrystalline
+features.variations.ring: orientation distribution: broad
+sample.lattice.hexagonal
+image.problem.blocked
+features.variations.symmetry halo: 2
+sample.lattice.BCC
+features.main.diffuse low-q: anisotropic
+image.problem.windowed scattering: circle
+features.variations.higher orders: 7
+sample.type.large grains
+features.variations.symmetry halo: 16
+features.variations.symmetry halo: 14
+features.variations.higher orders: 17
+image.problem.parasitic slit scattering
+features.variations.higher orders: 14
+features.variations.ring: width: broad
+image.measured.direct
+instrumental.beamstop.circular beamstop
+features.variations.symmetry ring: 20
+image.general.form factor: sphere
+features.variations.oval ring
+features.variations.symmetry ring: 14
+features.variations.symmetry ring: 6
+features.main.halo: isotropic
+image.general.strong scattering
+features.variations.higher orders: 11
+features.variations.ring: width: sharp
+features.main.ring: anisotropic
+features.variations.higher orders: 23
+image.problem.saturation
+features.variations.higher orders: 18
+features.other.high background
+features.other.background
+features.variations.symmetry ring: 2
+image.problem.windowed scattering: square
+features.variations.higher orders: 13
+features.variations.higher orders: 1
+features.main.ring: oriented IP
+features.variations.higher orders: 22
+features.variations.higher orders: 2

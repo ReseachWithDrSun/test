@@ -1,0 +1,28 @@
+pyCXD - python Coherent Xray Diffraction (too general of a name, should we change?)
+
+File Structure:
+    config.py - some initial configuration code (from config import * should be the first line of every script)
+    examples/ - good examples on how to run code (i.e. supporting code examples
+        for a manual. Should be as self contained as possible, (Sometimes it
+        cannot be so, such as when reading a data file)
+    io/ - all reading/writing routines
+    plot/ - plotting tools 
+    pylists/ - softlink to any lists that python might use to start batch reading data
+    pyscripts/ - softlink to any test scripts run 
+    tools/ - general tools involving xray stuff
+
+The idea:
+    Everything in this directory should be portable code. Anything
+cumbersome should be kept out of it. Soft links into other code from
+this directory is okay.
+
+Suggested structure for the rest of data:
+DDIR - directory where data is located
+SDIR - directory where extra information is stored (eventually
+    calculation of higher order statistics which require post processing
+    stuff like mask creation. Basically anything computed from the data
+    that required some extra information added in before computing)
+LISTSDIR - directory where any lists describing data is located
+SCRIPTSDIR - anything that's run as a prototype once that cannot be
+    built upon in the future (ex: figure generation scripts, testing,
+    benchmarking etc.)

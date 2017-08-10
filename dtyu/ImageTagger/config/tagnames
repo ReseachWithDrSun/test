@@ -1,0 +1,119 @@
+experiment.measurement.TSAXS
+features.main.diffuse high-q
+	features.main.diffuse high-q: anisotropic
+	features.main.diffuse high-q: isotropic
+features.main.diffuse low-q
+	features.main.diffuse low-q: anisotropic
+	features.main.diffuse low-q: isotropic
+features.main.halo
+	features.main.halo: anisotropic
+	features.main.halo: isotropic
+	features.main.halo: oriented IP
+	features.main.halo: oriented OOP
+	features.main.halo: oriented other
+features.main.ring
+	features.main.ring: anisotropic
+	features.main.ring: isotropic
+	features.main.ring: oriented IP
+	features.main.ring: oriented OOP
+	features.main.ring: oriented other
+	features.main.ring: spotted
+	features.main.ring: textured
+features.other.background
+features.other.coherent speckle
+features.other.high background
+features.variations.higher orders
+	features.variations.higher orders: 1
+	features.variations.higher orders: 2
+	features.variations.higher orders: 3
+	features.variations.higher orders: 4
+	features.variations.higher orders: 5
+	features.variations.higher orders: 6
+	features.variations.higher orders: 7
+	features.variations.higher orders: 8
+	features.variations.higher orders: 9
+	features.variations.higher orders: 10
+	features.variations.higher orders: 11
+	features.variations.higher orders: 12
+	features.variations.higher orders: 13
+	features.variations.higher orders: 14
+	features.variations.higher orders: 15
+	features.variations.higher orders: 16
+	features.variations.higher orders: 17
+	features.variations.higher orders: 18
+	features.variations.higher orders: 19
+	features.variations.higher orders: 20
+	features.variations.higher orders: 21
+	features.variations.higher orders: 22
+	features.variations.higher orders: 23
+features.variations.many rings
+features.variations.oval ring
+features.variations.ring
+	features.variations.ring: orientation distribution: broad
+	features.variations.ring: orientation distribution: intermediate
+	features.variations.ring: orientation distribution: sharp
+	features.variations.ring: width: broad
+	features.variations.ring: width: intermediate
+	features.variations.ring: width: sharp
+features.variations.symmetry halo
+	features.variations.symmetry halo: 2
+	features.variations.symmetry halo: 4
+	features.variations.symmetry halo: 6
+	features.variations.symmetry halo: 8
+	features.variations.symmetry halo: 10
+	features.variations.symmetry halo: 12
+	features.variations.symmetry halo: 14
+	features.variations.symmetry halo: 16
+	features.variations.symmetry halo: 18
+	features.variations.symmetry halo: 20
+features.variations.symmetry ring
+	features.variations.symmetry ring: 2
+	features.variations.symmetry ring: 4
+	features.variations.symmetry ring: 6
+	features.variations.symmetry ring: 8
+	features.variations.symmetry ring: 10
+	features.variations.symmetry ring: 12
+	features.variations.symmetry ring: 14
+	features.variations.symmetry ring: 16
+	features.variations.symmetry ring: 18
+	features.variations.symmetry ring: 20
+image.general.form factor
+	image.general.form factor: sphere
+image.general.intermediate scattering
+image.general.strong scattering
+image.general.structure factor
+image.general.weak scattering
+image.measured.dark
+image.measured.direct
+image.measured.sample
+image.measured.standard
+image.problem.blocked
+image.problem.parasitic slit scattering
+	image.problem.parasitic slit scattering: horizontal
+	image.problem.parasitic slit scattering: vertical
+image.problem.saturation
+image.problem.windowed obstruction
+image.problem.windowed scattering
+	image.problem.windowed scattering: circle
+	image.problem.windowed scattering: square
+image.problem.zingers
+instrumental.beamstop.beam off image
+instrumental.beamstop.circular beamstop
+instrumental.beamstop.linear beamstop
+instrumental.beamstop.wedge beamstop
+instrumental.detector.Conceptual256
+sample.lattice.BCC
+sample.lattice.FCC
+sample.lattice.hexagonal
+sample.lattice.lamellar
+sample.lattice.symmetry
+	sample.lattice.symmetry: 2
+	sample.lattice.symmetry: 4
+	sample.lattice.symmetry: 6
+sample.special.meso lattice SC
+sample.type.large grains
+sample.type.mesostructure
+sample.type.polycrystalline
+sample.type.single crystal
+substance.instrumental.AgBH
+substance.test.particular
